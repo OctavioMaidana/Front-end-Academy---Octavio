@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0%;
+}
+h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+h2{
+    font-size: 2rem;
+    text-align: center;
+}
+section {
+    height: 100vh;
+}
+
+.trabajos-list {
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: center;
+   margin: 20px;
+}
+
+section#entrada {
+
+    background-color: lightcoral;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+section#entrada h1 {
+    font-size: 3rem;
+}
+.trabajos-detail {
+    border: 5px solid lightblue;
+    width: 300px;
+    border-radius: 5px;
+    margin: 20px;
+
+}
+
+.trabajos-detail img {
+    width: 100%;
+}
+
+header {
+    
+    position: sticky;
+    top: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: darksalmon;
+}
+nav ul{
+display: flex;
+justify-content: center;
+}
+
+nav ul li {
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: azure coral;
+}
+
+section#contacto {
+    width: 500px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px;
+    box-shadow: 0 0 20px 1px;
+}
