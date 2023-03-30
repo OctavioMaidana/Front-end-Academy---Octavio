@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/estilo2.css" rel="stylesheet" type="text/css">
+    <title>CV Octavio Maidana</title>
+    <script src="java script/eventos.js"></script>
+</head>
+                        <!--Acá empieza la botonera lateral-->
+<div class="botonera">
+    <a href="#personal"><img class="boton" src="img/personal.png" id="pers" onmousemove="enAmarillo1()" onmouseleave="enNegro1()" alt="informacion personal"> </a>
+    <a href="#laboral"><img class="boton" src="img/laboral.png" id="labo" onmousemove="enAmarillo2()" onmouseleave="enNegro2()" alt="informacion laboral"> </a>
+    <a href="#habilidades"><img class="boton" src="img/habilidades.png" id="habi" onmousemove="enAmarillo3()" onmouseleave="enNegro3()" alt="habilidades"> </a>
+    <a href="#educacion"><img class="boton" src="img/estudios.png" id="estu" onmousemove="enAmarillo4()" onmouseleave="enNegro4()" alt="estudios"> </a>
+</div>
+<body>
+                        <!--Presentación del CV-->
+<div class="degrade">
+    <div class="grilla">
+<div class="intro">
+    <div class="nombres">OCTAVIO MAIDANA</div>
+    <div class="bajada">Licenciado en Comunicación Social</div>
+    <div class="descripcion">Intervenciones en distintos ámbitos dentro del periodismo y la educación con compromiso y perspectiva social. 
+        Trabajé en contextos de encierro y en entornos virtuales . Me desempeño con solvencia utilizando recursos tecnológicos especialmente en relación a diseño, edición y fotografía . Versatilidad para aprender realizando diferentes tareas,
+         capacidad de integrar equipos interdisciplinarios de trabajo colectivo y colaborativo.</div>
+    <a href="#"><img src="img/behance.png" class="icono" id="be" onmousemove="enAmarillo5()" onmouseleave="enNegro5()"></a>
+    <a href="#"><img src="img/github.png" class="icono" id="gi" onmousemove="enAmarillo6()" onmouseleave="enNegro6()"></a>
+    <a href="#"><img src="img/linkedin.png" class="icono" id="li" onmousemove="enAmarillo7()" onmouseleave="enNegro7()"></a>
+</div>
+    <img src="img/octavio.jpg" class="perfil">
+    </div>
+</div> <!--Acá termina lo principal del cv-->
+                        <!--Fundamentos  del CV-->  
+<div class="caja"  id="personal">
+    <div class="titulo">Datos Personales</div>
+    <div class="text">    
+        <ul>
+            <li>Edad: 39</li>
+            <li>Residencia: Quilmes, Buenos Aires</li>
+            <li>Nacimiento: 13/01/84</li>
+            <li>Nacionalidad: Argentina</li>
+            <li>Telefono: 11-52615354</li>
+            <li>E-mail: octaviomaidana@gmail.com</li>
+        </ul>
+    </div>
+</div>
+    
+<div class="caja" id="laboral">
+    <div class="titulo">Experiencia Profesional</div>
+    <div class="text">    
+        <ul>
+            <li>2020 - Actualidad / Corresponsal Diario Clarín / Editor y Redactor</li>
+            <li>2022 - Actualidad / Encargado de Medios / Colegio Inmaculada Concepción</li>
+            <li>2020 - 2021 / Consultor / Universidad de San Martín</li>
+            <li>2016 - 2019 / Contenidista / Azul Formación Superior</li>
+        </ul>
+    </div>
+</div>
+    
+<div class="caja" id="Aptitudes">
+    <div class="titulo">Aptitudes</div>
+    <div class="text">    
+        <ul>
+            <li>Compromiso</li>
+            <li>Proactividad</li>
+            <li>Trabajo en equipo</li>
+            <li>Redacción</li>
+        </ul>
+    </div>
+</div>
+
+<div class="caja" id="estudios">
+    <div class="titulo">Educación</div>
+    <div class="text">    
+        <ul>
+            <li>2008 - 2013 / Licenciatura en Comunicación / UNQ </li>
+            <li>2013 - 2015 / Curso de Periodismo e Historia / Universidad de San Andrés</li>
+            <li>2019 - 2022/ Profesorado en Comunicación / UNQ</li>
+            <li>2004 - 2010 / Tecnicatura en periodismo / UAI </li>
+        </ul>
+    </div>
+</div>
+<div class="vacio"></div>
+
+<section id="contacto">
+    <h2>Contactate con Octavio</h2>
+    <form action="">
+        <div>
+        <label for="">Nombre</label>
+        <input type="text">
+        </div>
+
+        <div>
+            <label for="">Institución</label>
+            <input type="text">
+        </div>
+
+        <div>
+            <label for="">Asunto</label>
+           <textarea name="" id="" cols="30" rows="10"></textarea>
+        </div>
+        <button>Enviar</button>
+    </form>
+    <script src="contacto.js"></script>
+</section>
+
+</body>
+</html>
